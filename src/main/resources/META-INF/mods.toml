@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+# issueTrackerURL=""
+
+[[mods]]
+modId="extrathings"
+version="${file.jarVersion}"
+displayName="ExtraThings"
+# updateJSONURL=""
+displayURL= "http://nevinia.fr"
+# logoFile=""
+credits="Thanks to MFF and Forge guys"
+authors="Nevinia"
+description='''
+ExtraThings is the first mod made by Nevinia.
+It's a mod with a lot of things.
+'''
+
+[[dependencies.projectmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.projectmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
