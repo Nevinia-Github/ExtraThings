@@ -47,17 +47,18 @@ public class ExtraThings
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        LOGGER.info("ProjectMod : Common Setup completed");
+
+        LOGGER.info("ExtraThings : Common Setup completed");
     }
 
     private void clientSetup(final FMLClientSetupEvent event)
     {
-        LOGGER.info("ProjectMod : Client Setup completed");
+        LOGGER.info("ExtraThings : Client Setup completed");
     }
 
     private void serverSetup(final FMLDedicatedServerSetupEvent event)
     {
-        LOGGER.info("ProjectMod : Server Setup completed");
+        LOGGER.info("ExtraThings : Server Setup completed");
     }
 
     private void serverStartingEvent(FMLServerStartingEvent event)
