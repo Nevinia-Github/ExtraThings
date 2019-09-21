@@ -1,4 +1,5 @@
 {
   "itemGroup.extrathings": "ExtraThings",
-  "item.extrathings.cooked_egg": "Cooked Egg"
+  "item.extrathings.cooked_egg": "Cooked Egg",
+  "block.extrathings.glass_door": "Glass Door"
 }

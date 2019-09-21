@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "extrathings:block/glass",
+    "top": "extrathings:block/glass"
+  }
+}
