@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "extrathings:glass_door",
+    "count": 1
+  }
+}

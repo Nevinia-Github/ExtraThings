@@ -24,6 +24,6 @@ public class ExtraThingsBlocks
     @SubscribeEvent
     public static void registerItem(final RegistryEvent.Register<Item> event)
     {
-        event.getRegistry().register(new BlockItem(GLASS_DOOR, new Item.Properties().group(ExtraThings.EXTRATHINGS_GROUP)).setRegistryName(GLASS_DOOR.getRegistryName()));
+        event.getRegistry().register(new BlockItem(GLASS_DOOR, new Item.Properties().maxStackSize(1).group(ExtraThings.EXTRATHINGS_GROUP)).setRegistryName(GLASS_DOOR.getRegistryName()));
     }
 }
